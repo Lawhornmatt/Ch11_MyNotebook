@@ -1,4 +1,4 @@
-# Note Taker
+# My Notebook
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## TABLE OF CONTENTS:
@@ -22,11 +22,11 @@
 
 ## DESCRIPTION:
 
-This is the ReadMe for the Chapter Eleven Bootcamp Challenge: Note Taker
+This is the ReadMe for the Chapter Eleven Bootcamp Challenge: My Notebook
 
 *Give Long Description*
 
-<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of Note Taker'/>
+<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of My Notebook'/>
 
 ## INSTALLATION:
 
