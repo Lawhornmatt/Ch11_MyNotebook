@@ -22,11 +22,11 @@
 
 ## DESCRIPTION:
 
-This is the ReadMe for Matthew Lawhorn's project titled: FedEx Depot Assistant
+This is the ReadMe for the Chapter Eleven Bootcamp Challenge: Note Taker
 
-Every day at FedEx station MMRA, an employee counts every truck and every key. This is tedious. This app assists the employee in performing these repetitive tasks with better efficiency and accuracy. 
+*Give Long Description*
 
-<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of FedEx Depot Assistant'/>
+<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of Note Taker'/>
 
 ## INSTALLATION:
 
@@ -34,7 +34,7 @@ Follow the link to domain name where the app is deployed.
 
 ## USAGE INFO:
 
-Once at the app web domain, pick your task and follow the prompts. A final screen of your results will display for you to transcribe unto the paperwork that is turned in at the end of the day.
+*How to Use*
 
 ## CONTRIBUTION GUIDELINES:
 
