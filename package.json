@@ -1,0 +1,13 @@
+{
+  "name": "fedex-depot-assistant",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon -e js,ejs,css,html server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ejs": "^3.1.8"
+  }
+}
