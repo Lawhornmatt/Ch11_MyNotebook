@@ -33,4 +33,6 @@ const readAndAppend = (content, file) => {
   });
 };
 
-module.exports = { readFromFile, mutabToFile, readAndAppend };
+const readAndAppendProm = util.promisify(readAndAppend);
+
+module.exports = { readFromFile, mutabToFile, readAndAppend, readAndAppendProm };

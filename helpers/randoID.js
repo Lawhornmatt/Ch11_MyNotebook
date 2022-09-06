@@ -20,4 +20,11 @@ function returnUnique() {
     return possibility;
 }
 
-module.exports = { returnUnique };
+module.exports = () => {
+    buildUsedList();
+    let possibility = buildStr();
+    while (usedIDs.includes(possibility)) {
+        possibility = buildStr();
+    };
+    return possibility;
+};
