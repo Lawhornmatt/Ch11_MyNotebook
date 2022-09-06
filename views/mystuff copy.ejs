@@ -12,13 +12,14 @@
 
   <body>
     <ul class="">
+      <% currentDatabase.forEach(function(noteObj) { %>
 
         <li class="">
           <div class="">
-            Hello | World
+            <%= noteObj.title | noteObj.text %>
           </div>
         </li>
-
+      <% }); %>
     </ul>
   </body>
 </html>

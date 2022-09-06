@@ -7,6 +7,7 @@ const path = require('path');
 
 // == ROUTES (REQ) == //
 const notes = require('./routes/notesRoute');
+const mystuff = require('./routes/mystuffRoute');
 
 // ====================
 //      INITS
@@ -29,6 +30,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // == ROUTES (MIDL) == //
 app.use('/notes', notes);
+app.use('/mystuff', mystuff);
 
 // app.use(express.static('public'));
 app.use('/public', express.static('public'));
