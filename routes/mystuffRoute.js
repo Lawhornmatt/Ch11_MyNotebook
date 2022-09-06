@@ -10,8 +10,14 @@ mystuff.get('/', (req, res) => {
 
     res.json(currentDatabase);
 
-    console.log('I am running')
+    console.log('You made a GET to /mystuff')
 
+
+});
+
+mystuff.post('/', (req, res) => {
+
+    console.log(req.body);
 
 });
 
