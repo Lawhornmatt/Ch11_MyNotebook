@@ -33,6 +33,20 @@ const readAndAppend = (content, file) => {
   });
 };
 
+const dltData = (id, file) => {
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      let dltIndex = parsedData.findIndex((el) => el.id == id);
+      // console.log(dltIndex);
+      parsedData.splice(dltIndex, 1);
+      writeToFile(file, parsedData);
+    }
+  });
+};
+
 const readAndAppendProm = util.promisify(readAndAppend);
 
-module.exports = { readFromFile, mutabToFile, readAndAppend, readAndAppendProm };
+module.exports = { readFromFile, mutabToFile, readAndAppend, dltData };

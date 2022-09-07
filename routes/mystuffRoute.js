@@ -1,5 +1,5 @@
 const mystuff = require('express').Router();
-const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
+const { readFromFile, readAndAppend, dltData } = require('../helpers/fsUtils');
 const currentDatabase = require(`../db/db.json`);
 const randoID = require('../helpers/randoID');
 
@@ -32,8 +32,19 @@ mystuff.post('/', (req, res) => {
         readAndAppend(newPost, './db/db.json');
 
     } else {
-        res.error('Error in adding newPost');
+        res.status(400).send({
+            message: 'This is an error!'
+         });
     }
+
+    res.render('notes');
+});
+
+mystuff.delete('/:id', (req, res) => {
+    postToDel = req.params.id;
+    dltData(postToDel, './db/db.json');
+
+    res.render('notes');
 });
 
 module.exports = mystuff;
