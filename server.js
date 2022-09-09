@@ -13,7 +13,7 @@ const mystuff = require('./routes/mystuffRoute');
 //      INITS
 // ====================
 
-const PORT = 30547;
+const PORT = process.env.PORT || 30547;
 
 const app = express();
 
