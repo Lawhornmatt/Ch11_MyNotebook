@@ -24,17 +24,19 @@
 
 This is the ReadMe for the Chapter Eleven Bootcamp Challenge: My Notebook
 
-*Give Long Description*
+Add notes and delete notes.
 
-<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of My Notebook'/>
+<img src='./public/assets/images/notetaker_scrnsht.png' alt='A screenshot of My Notebook'/>
 
 ## INSTALLATION:
 
-Follow the link to domain name where the app is deployed. 
+Check it out at Heroku: https://my-notebook-lawhornmatt.herokuapp.com/
 
 ## USAGE INFO:
 
-*How to Use*
+Put in a title and body to the note. Click the floppy to save the note. Saved notes appear in the left hand side.  
+Click on any note and retype its body and save it to edit a note.
+Click on the red trash can to delete a note.
 
 ## CONTRIBUTION GUIDELINES:
 
@@ -49,8 +51,6 @@ Thank you, but no testing is needed at this time.
 If you have any questions,
 
 you can find my GitHub here: https://github.com/Lawhornmatt
-
-or email me here: placeholder@notreal.com
 
 ## CREDIT:
 
