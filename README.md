@@ -1,26 +1,27 @@
 # My Notebook
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## TABLE OF CONTENTS:
+### TABLE OF CONTENTS:
 
-* [Description](#DESCRIPTION)
+* [Description](#description)
 
-* [Installation guide](#INSTALLATION) 
+* [Installation guide](#installation) 
 
-* [Usage Info](#USAGEINFO) 
+* [Usage Info](#usage) 
 
-* [Contribution Guidelines](#CONTRIBUTIONGUIDELINES) 
+* [Contribution Guidelines](#contribution) 
 
-* [Testing Instructions](#TESTINSTRUCTIONS) 
+* [Testing Instructions](#testing) 
 
-* [Questions](#QUESTIONS)
+* [Questions](#questions)
 
-* [Credits](#CREDIT)
+* [Credits](#credit)
 
-* [License](#LICENSE)
+* [License](#license)
 
+<a name="description"></a>
 
-## DESCRIPTION:
+### DESCRIPTION:
 
 This is the ReadMe for the Chapter Eleven Bootcamp Challenge: My Notebook
 
@@ -28,37 +29,51 @@ Add notes and delete notes.
 
 <img src='./public/assets/images/notetaker_scrnsht.png' alt='A screenshot of My Notebook'/>
 
-## INSTALLATION:
+<a name="installation"></a>
+
+### INSTALLATION:
 
 Check it out at Heroku: https://my-notebook-lawhornmatt.herokuapp.com/
 
-## USAGE INFO:
+<a name="usage"></a>
+
+### USAGE:
 
 Put in a title and body to the note. Click the floppy to save the note. Saved notes appear in the left hand side.  
 Click on any note and retype its body and save it to edit a note.
 Click on the red trash can to delete a note.
 
-## CONTRIBUTION GUIDELINES:
+<a name="contribution"></a>
+
+### CONTRIBUTION:
 
 Sorry, this project is privately maintained.
 
-## TEST INSTRUCTIONS:
+<a name="testing"></a>
+
+### TESTING:
 
 Thank you, but no testing is needed at this time.
 
-## QUESTIONS:
+<a name="questions"></a>
+
+### QUESTIONS:
 
 If you have any questions,
 
 you can find my GitHub here: https://github.com/Lawhornmatt
 
-## CREDIT:
+<a name="credit"></a>
+
+### CREDIT:
 
 This project was made in 2022 by Matthew Lawhorn
 
 This is a solo-project.
 
-## LICENSE:
+<a name="license"></a>
+
+### LICENSE:
 
 This program is copyrighted under the MIT open source license.
 
